@@ -28,6 +28,10 @@ dependencies {
 	implementation('org.springframework.boot:spring-boot-starter-data-mongodb-reactive')
 	implementation('org.springframework.boot:spring-boot-starter-thymeleaf')
 	implementation('org.springframework.boot:spring-boot-starter-webflux')
+	//spring-boot-devtools模块包含对快速重新启动应用程序的支持 
+	implementation('org.springframework.boot:spring-boot-devtools')
+	// Spring Loaded是一个JVM代理，用于在JVM运行时重新加载类文件更改
+	implementation('org.springframework.boot:springloaded')
 	compileOnly('org.projectlombok:lombok')
 	testImplementation('org.springframework.boot:spring-boot-starter-test')
 	testImplementation('io.projectreactor:reactor-test')
